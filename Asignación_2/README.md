@@ -8,10 +8,10 @@ Inicialmente, se evaluó el volumen y los tipos de datos, confirmando una estruc
 
 El análisis visual de distribuciones, detección de anomalías y correlaciones se abordó de varias formas:
 
-- Para comprender el mercado, se generaron histogramas aplicando filtros visuales ("zooms") que aislaron la asimetría positiva extrema. Esto reveló que la mayoría de los carros se concentran entre los $20,000 y $40,000, y permitió descubrir un sesgo en el dataset provocado por autos de la década de 1990 ingresados con un valor base de $2,000.
+- Para comprender el mercado, se generaron histogramas que aislaron la asimetría positiva extrema. Esto reveló que la mayoría de los carros se concentran entre los $20,000 y $40,000, y permitió descubrir un sesgo en el dataset provocado por autos de la década de 1990 ingresados con un valor base de $2,000.
 
-- Se utilizaron diagramas de caja para confirmar e identificar los valores atípicos, evidenciando gráficamente la dispersión de superdeportivos de más de 1000 HP y carros de ultra lujosos que superan la barrera del millón de dólares.
+- Se utilizaron diagramas de caja para confirmar e identificar los valores atípicos, evidenciando gráficamente la dispersión de superdeportivos de más de 1000 HP y carros ultra lujosos que superan la barrera del millón de dólares.
 
 - Mediante mapas de calor y gráficos de dispersión, se evaluó la correlación entre las variables numéricas. Se identificó una fuerte relación de 0.66 entre la potencia y el precio, y una relación lineal de 0.89 entre el rendimiento en ciudad y autopista, lo que a su vez permitió clasificar visualmente a los carros 100% eléctricos de la muestra.
 
-- Durante el análisis del grafico dispersión, se logró detectar una anomalía en una observación, verificando el registro físicamente imposibles, como un vehículo con 354 MPG en autopista que probablemente sea un error de tipeo, garantizando así su identificación para futuras etapas de limpieza.
+- Durante el análisis del grafico dispersión, se logró detectar una anomalía en una observación, revisando el registro físicamente imposible, pudimos verificar que es un carro con 354 MPG en autopista, esto probablemente sea un error de tipeo, gracias a esta identificación podemos preparnos mejor para futuras etapas de limpieza.
