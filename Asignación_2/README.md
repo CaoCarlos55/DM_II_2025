@@ -14,4 +14,4 @@ El análisis visual de distribuciones, detección de anomalías y correlaciones 
 
 - Mediante mapas de calor y gráficos de dispersión, se evaluó la correlación entre las variables numéricas. Se identificó una fuerte relación de 0.66 entre la potencia y el precio, y una relación lineal de 0.89 entre el rendimiento en ciudad y autopista, lo que a su vez permitió clasificar visualmente a los carros 100% eléctricos de la muestra.
 
-- Durante el análisis del grafico dispersión, se logró detectar una anomalía en una observación, revisando el registro físicamente imposible, pudimos verificar que es un carro con 354 MPG en autopista, esto probablemente sea un error de tipeo, gracias a esta identificación podemos preparnos mejor para futuras etapas de limpieza.
+- Durante el análisis del grafico dispersión, se logró detectar una anomalía en una observación, revisando el registro físicamente imposible, pudimos verificar que es un carro con 354 MPG en autopista, esto probablemente sea un error de tipeo, gracias a esta identificación podemos prepararnos mejor para futuras etapas de limpieza.
